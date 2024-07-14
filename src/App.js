@@ -7,10 +7,6 @@ function App() {
     <div>
       <Hello name="React" />
       <Hello name="World" />
-    </div>
-  );
-
-    <div>
       <Counter />
     </div>
   );
