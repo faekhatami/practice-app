@@ -4,7 +4,8 @@ import Hello from "./Hello";
 function App() {
   return (
     <div>
-      <Hello />
+      <Hello name="React" />
+      <Hello name="World" />
     </div>
   );
 }
