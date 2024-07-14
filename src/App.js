@@ -2,6 +2,7 @@ import React from "react";
 import Hello from "./Hello";
 import Counter from "./Counter";
 import UserForm from "./UserForm";
+import DataFetcher from "./DataFetcher";
 
 function App() {
   return (
