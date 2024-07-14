@@ -11,16 +11,16 @@ function App() {
       <nav>
         <ul>
           <li>
-            <link to="/">Home</link>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <link to="/counter">Counter</link>
+            <Link to="/counter">Counter</Link>
           </li>
           <li>
-            <link to="/form">Form</link>
+            <Link to="/form">Form</Link>
           </li>
           <li>
-            <link to="/fetcher">Fetcher</link>
+            <Link to="/fetcher">Fetcher</Link>
           </li>
         </ul>
       </nav>
