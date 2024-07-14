@@ -11,7 +11,7 @@ function App() {
   );
 }
 
-function App() {
+function App2() {
   return (
     <div>
       <Counter />
