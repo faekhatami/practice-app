@@ -9,11 +9,36 @@ import ThemeSwitcher from "./ThemeSwitcher";
 
 function App() {
   return (
-    <ThemeProvider>
-      <div>
-        <ThemeSwitcher />
-      </div>
-    </ThemeProvider>
+    <Router>
+      <ThemeProvider>
+        <div>
+          <ThemeSwitcher />
+        </div>
+      </ThemeProvider>
+
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/counter">Counter</Link>
+          </li>
+          <li>
+            <Link to="/form">Form</Link>
+          </li>
+          <li>
+            <Link to="/fetcher">Fetcher</Link>
+          </li>
+        </ul>
+      </nav>
+      <Routes>
+        <Route path="/counter" element={<Counter />} />
+        <Route path="/form" element={<UserForm />} />
+        <Route path="/fetcher" element={<DataFetcher />} />
+        <Route path="/" element={<Hello name="Router" />} />
+      </Routes>
+    </Router>
   );
 }
 
