@@ -9,9 +9,7 @@ function App() {
       <Hello name="World" />
     </div>
   );
-}
 
-function App2() {
   return (
     <div>
       <Counter />
@@ -20,4 +18,3 @@ function App2() {
 }
 
 export default App;
-export default App2;
