@@ -1,6 +1,7 @@
 import React from "react";
 import Hello from "./Hello";
 import Counter from "./Counter";
+import UserForm from "./UserForm";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Hello name="React" />
       <Hello name="World" />
       <Counter />
+      <UserForm />
     </div>
   );
 }
