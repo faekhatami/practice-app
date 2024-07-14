@@ -10,6 +10,7 @@ function App() {
       <Hello name="World" />
       <Counter />
       <UserForm />
+      <DataFetcher />
     </div>
   );
 }
