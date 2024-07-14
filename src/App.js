@@ -10,7 +10,6 @@ function App() {
     </div>
   );
 
-  return (
     <div>
       <Counter />
     </div>
